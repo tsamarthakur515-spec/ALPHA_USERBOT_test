@@ -9,14 +9,14 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "27079591")) #optional
 API_HASH = getenv("API_HASH", "c81ae4c3dc026ea4bf49842a8ce4a5f9") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7403621976").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8765123117").split()))
+OWNER_ID = int(getenv("8765123117"))
 MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("9276089106:AAG7uwAlCJ_t6MN34lomFqzPCt5OR-g5djE", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/5badd2112e1e0cdf03a1f.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+PM_LOGGER = getenv("-1004318913888")
+LOG_GROUP = getenv("-1004318913888")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/TEAMPURVI/ALPHA_USERBOT")
 BRANCH = getenv("BRANCH", "main") #don't change
